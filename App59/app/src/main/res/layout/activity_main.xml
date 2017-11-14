@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.app59.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view01"
+        android:layout_centerInParent="true"
+        android:background="#f00"
+        android:text="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view02"
+        android:background="#f00"
+        android:layout_above="@+id/view01"
+        android:layout_alignLeft="@+id/view01"
+        android:text="2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view03"
+        android:layout_below="@+id/view01"
+        android:layout_alignLeft="@+id/view01"
+        android:background="#f00"
+        android:text="3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:id="@+id/view04"
+        android:layout_toLeftOf="@+id/view01"
+        android:layout_alignTop="@+id/view01"
+        android:text="4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:id="@+id/view05"
+        android:layout_toRightOf="@+id/view01"
+        android:layout_alignTop="@+id/view01"
+        android:text="5"/>
+
+</RelativeLayout>

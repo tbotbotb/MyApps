@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.app121_viewanimator.MainActivity">
+
+    <!--定义一个ViewSwitcher组件-->
+    <ViewSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewSwitcher"/>
+    <!--定义滚动到上一屏的按钮-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_prev"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="&lt;"
+        android:onClick="prev"/>
+    <!--定义滚动到下一屏的按钮-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next"
+        android:text="&gt;"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="next"/>
+
+
+</RelativeLayout>

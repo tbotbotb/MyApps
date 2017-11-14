@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.app63_login.MainActivity">
+    <!--定义一个文本框，使用绝对定位-->
+    <!--定义一个文本编辑框，使用绝对定位-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="15dp"
+        android:width="200dp"/>
+    <!--定义一个文本框，使用绝对定位-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="19dp"
+        android:text="用户名：" />
+    <!--定义一个文本框，使用绝对定位-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="79dp"
+        android:text="密 码：" />
+    <!--定义一个文本输入框，使用绝对定位-->
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="75dp"
+        android:width="200dp"
+        android:password="true"
+        />
+    <!--定义一个按钮，使用绝对路径-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="135dp"
+        android:text="登  录"/>
+
+
+</AbsoluteLayout>

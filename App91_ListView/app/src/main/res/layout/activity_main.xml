@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.app91_listview.MainActivity">
+
+    <!--使用红色分隔条-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list1"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false">
+    <!--设置使用绿色分隔条-->
+    </ListView>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list2"
+        android:divider="#0f0"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="true"></ListView>
+
+</LinearLayout>
